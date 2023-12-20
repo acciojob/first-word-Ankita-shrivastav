@@ -1,11 +1,12 @@
 function firstWord(s) {
   // your code here
-	if(str===''){
+	if(s.length===0){
 		return '';
 	}
-	cont words=str.split('');
-	return firstWord[0];
+	cont words=s.split('');
+	return words[0];
 }
+
 
 // Do not change the code below
 
