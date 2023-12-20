@@ -3,7 +3,7 @@ function firstWord(s) {
 	if(s.length===0){
 		return '';
 	}
-	cont words=s.split('');
+	let words=s.split(' ');
 	return words[0];
 }
 
