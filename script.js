@@ -4,7 +4,7 @@ function firstWord(s) {
 		return '';
 	}
 	cont words=str.split('');
-	return words[0];
+	return firstWord[0];
 }
 
 // Do not change the code below
